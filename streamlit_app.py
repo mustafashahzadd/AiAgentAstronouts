@@ -4,7 +4,7 @@ import os
 import random
 from dotenv import load_dotenv  
 
-# Explicitly specify the path of .env file
+
 env_path = os.path.join("groq_env", ".env")
 load_dotenv(env_path)  # Load environment variables from groq_env/.env
 
